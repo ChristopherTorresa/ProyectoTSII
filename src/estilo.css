@@ -4,6 +4,7 @@ body {
 #cabeza {
 	border:1px solid red;
 	background-color:#CEF6F5;
+	height:50px;
 }
 #logo {
 	border:1px solid red;
@@ -12,9 +13,14 @@ body {
 #logo img {
 	height:50px;
 	width:50px;
+	float:left;
 }
 #derecha {
 	margin-left:70%;
-	margin-top:-50px;
+	margin-top:15px;
 	border:1px solid red;
+}
+#derecha a {
+	text-decoration:none;
+	color:#5858FA;
 }
