@@ -1,7 +1,14 @@
 body {
 	margin-left:20%;
 	margin-right:20%;
+	background-image: url(http://www.blirk.net/wallpapers/1280x1024/sun-and-sky-wallpaper-3.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+
 }
+
 #cabeza {
 	background-color:#CEF6F5;
 	height:50px;
