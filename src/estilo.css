@@ -1,9 +1,9 @@
 body {
 	margin-left:20%;
 	margin-right:20%;
+	background-image: url(http://www.blirk.net/wallpapers/1280x1024/sun-and-sky-wallpaper-3.jpg);
 }
 #cabeza {
-	border:1px solid red;
 	background-color:#CEF6F5;
 	height:50px;
 	border-radius: 20px;
@@ -26,4 +26,33 @@ body {
 	text-decoration:none;
 	color:#5858FA;
 	margin-right:20px;
+}
+#cuerpo {
+	border:1px solid red;
+}
+#izquierda {
+	border:1px solid red;
+	width:50%;
+	text-align:center;
+	margin-top:20px;
+	float:left;
+}
+#der {
+	margin-left:50%;
+	padding-left:20%;
+}
+label{
+    color: #666;
+    font-weight: bold
+}
+ 
+input{
+    /*border: 1px solid #999; No usar esta línea y dejar box-shadow hace efecto de profundidad*/
+    border-radius:5px; /*probar con 10px se hacen ovalados los inputs*/
+    box-shadow: 2px 2px 3px 1px rgba(0,0,0,.8);
+    font:bold 12px Arial, Helvetica, sans-serif;
+    height: 24px;
+    line-height: 20px;
+    padding:0 2px;
+    width: 230px;
 }
