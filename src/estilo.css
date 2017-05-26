@@ -6,6 +6,8 @@ body {
 	border:1px solid red;
 	background-color:#CEF6F5;
 	height:50px;
+	border-radius: 20px;
+	border: #E0F8F7 8px outset;
 }
 #logo {
 	width:50px;
