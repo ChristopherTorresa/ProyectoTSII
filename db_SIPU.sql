@@ -1,3 +1,4 @@
+drop database if exists sipu;
 CREATE DATABASE  IF NOT EXISTS `sipu` /*!40100 DEFAULT CHARACTER SET utf8 */;
 USE `sipu`;
 -- MySQL dump 10.13  Distrib 5.7.17, for Win64 (x86_64)
@@ -18,30 +19,29 @@ USE `sipu`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `entidades`
+-- Table structure for table `institucion`
 --
 
-DROP TABLE IF EXISTS `entidades`;
+DROP TABLE IF EXISTS `institucion`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `entidades` (
-  `identidad_id` int(11) NOT NULL AUTO_INCREMENT,
+CREATE TABLE `institucion` (
+  `institucion_id` int(11) NOT NULL AUTO_INCREMENT,
   `nombre` varchar(150) DEFAULT NULL,
-  `usuarios_api` varchar(250) DEFAULT NULL,
   `es_universidad` bit(1) NOT NULL,
   `acepta_morosos` bit(1) NOT NULL,
   `maximo_diario` decimal(15,2) DEFAULT NULL,
-  PRIMARY KEY (`identidad_id`)
+  PRIMARY KEY (`institucion_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `entidades`
+-- Dumping data for table `institucion`
 --
 
-LOCK TABLES `entidades` WRITE;
-/*!40000 ALTER TABLE `entidades` DISABLE KEYS */;
-/*!40000 ALTER TABLE `entidades` ENABLE KEYS */;
+LOCK TABLES `institucion` WRITE;
+/*!40000 ALTER TABLE `institucion` DISABLE KEYS */;
+/*!40000 ALTER TABLE `institucion` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
