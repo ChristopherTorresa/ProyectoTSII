@@ -6,27 +6,54 @@
 	</head>
 	<body>
 		<header id="cabeza">
-			<div id="logo">
-				<img src="http://www.innovaelectric.net/portal/images/main_panel/compra_ini.png"/>
-			</div>
-			<div id="derecha">
-				<a href="">Inicio</a>
-				<a href="">Iniciar Sesion</a>
-				<a href="">Nosotros</a>
-			</div>
+			<a id="logo" href="">
+			<span class="sitio-nombre">NOMBRE DE LA PAGINA</span>
+			<span class="creadores">Diego / Giancarlo / Christopher / Julio / Gustavo</span>
+			</a>
+
+			<nav>
+				<ul>
+					<li><a href="">Iniciar Sesion</a></li>
+					<li><a href="">Acerca de</a></li>
+					<li><a href="">Contacto</a></li>
+				</ul>
+			</nav>
 		</header>
 		<section id="cuerpo">
 			<div id="izquierda">
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
 				<h1>Registrate y Obten Nuestros Beneficios</h1>
-				<p>afasdfsg sfgsssfsd fsdfsfssg sdgdfgdfgdg dgdgdgdfghdhdhdh fghfhfjhwsed sdgsdgsdfgfdg sdgsdgsgs sadgsdgsgs sdfgsgsdg sdgsdg</p>
+				<p>Al registrarte tendras los beneficios que todo estudiante desea tener en su instituto o universidad al momento de hacer tus compras dentro de la institucion.</p>
 				<img src="http://cdn.mysitemyway.com/icons-watermarks/flat-circle-white-on-aqua/iconathon/iconathon_cafeteria/iconathon_cafeteria_flat-circle-white-on-aqua_512x512.png"/>
 			</div>
 			<div id="der">
-				<form id="form-login" action="#" method="post" >
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<form id="form-login" action="procesar.php" method="post" >
                     <p><label for="nombre">Nombre de la Institucion:</label></p>
-                        <input name="nombre" type="text" id="nombre" class="nombre" placeholder="Pon el nombre" autofocus=""/></p>
-                    <p><label for="apellidos">Tipo de Institucion:</label></p>
-                        <input name="apellidos" type="text" id="apellidos" class="apellidos" placeholder="Pon el tipo" /></p> 
+                        <input name="nombre" list="nombreI" id="nombre" autofocus=""/></p>
+						<datalist id="nombreI">
+							<option>USIL</option>
+							<option>UPC</option>
+							<option>PUCP</option>
+							<option>ISIL</option>
+							<option>PACIFICO</option>
+							<option>ESAN</option>
+							<option>SAN MARCOS</option>
+							<option>UNI</option>
+							<option>NORTE</option>
+					</datalist>
+                    <p><label for="codigo">Codigo:</label></p>
+                        <input name="codigo" type="number" id="codigo" class="codigo" placeholder="Pon tu codigo del estudiante" /></p> 
                     <p><label for="correo">Correo:</label></p>
                         <input name="correo" type="text" id="correo" class="correo" placeholder="Pon tu e-mail" /></p>
 					<p><label for="pass">Password:</label></p>
@@ -37,5 +64,8 @@
                 </form>
 			</div>
 		</section>
+		<footer id="footer">
+			<p>&copy; 2017 NOMBRE DE LA PAGINA</a></p>
+		</footer>
 	</body>
 </html>

@@ -9,19 +9,56 @@ body {
 }
 
 #cabeza {
-	background-color:#CEF6F5;
-	height:50px;
-	border-radius: 20px;
-	border: #E0F8F7 8px outset;
+	background: #333;
+    color: white;
+    height: 80px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+}   
+#cabeza a {
+    color: white;
 }
 #logo {
-	width:50px;
+    float: left;
+    padding: 15px 0 0 20px;
+    text-decoration: none;
 }
-#logo img {
-	margin-left:30px;
-	height:50px;
-	width:50px;
-	float:left;
+#logo:hover {
+    color: #0b76a6;
+}
+#logo .sitio-nombre {
+    display: block;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+#logo .creadores {
+    display: block;
+    font-weight: 300;
+    font-size: 0.8em;
+    color: #999;
+}
+nav {
+    float: right;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 20px;
+}   
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+}            
+nav ul li a {
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+}            
+nav ul li a:hover {
+    background: #0b76a6;
 }
 #derecha {
 	margin-left:70%;
@@ -33,7 +70,9 @@ body {
 	margin-right:20px;
 }
 #cuerpo {
-	
+	background-color: rgba(255, 255, 255, 0.6);
+    height:150%;
+	padding-bottom:330px;
 }
 #izquierda {
 	width:50%;
@@ -64,3 +103,15 @@ input{
     padding:0 2px;
     width: 230px;
 }
+#footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+	width: 100%;
+	left: 0;
+    position: fixed;
+}
+#footer p {
+    margin: 0;
+}   
