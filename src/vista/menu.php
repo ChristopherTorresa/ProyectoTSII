@@ -9,7 +9,7 @@ switch($_SESSION['tipo']){
         break;
     case 2://Alumno
         ?>
-        <li><a href='../controlador/paciente_insertar_cita.php'  target="principal">Reservar Citas</a><br></li>
+        <li><a href='.php' target="principal">Consultar Compras</a><br></li>
         <li><a href='lista_cita_pac.php' target="principal">Consultar Citas</a><br></li>
         <li><a href='medicamento_buscar.php' target="principal">Buscar Medicamento</a><br></li>
         <?php
